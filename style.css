@@ -2,27 +2,26 @@
   --gap: 1rem;
   --card-bg: #ffffff;
   --radius: 12px;
-  --green: #009C3B; /* Verde do Brasil */
-  --yellow: #FFCC29; /* Amarelo do Brasil */
-  --blue: #0033A0; /* Azul do Brasil */
-  --white: #FFFFFF; /* Branco */
-  --light-green: #a7d8a9; /* Verde claro */
+  --green: #009C3B; 
+  --yellow: #FFCC29; 
+  --blue: #0033A0; 
+  --white: #FFFFFF; 
+  --light-green: #a7d8a9; 
 }
 
 body {
   font-family: system-ui, -apple-system, sans-serif;
-  /* Gradiente de fundo para representar as cores da bandeira do Brasil */
   background: linear-gradient(135deg, var(--green) 25%, var(--yellow) 25%, var(--yellow) 50%, var(--green) 50%, var(--green) 75%, var(--yellow) 75%, var(--yellow) 100%), linear-gradient(180deg, #f6f7fb, #eef2f7);
   margin: 0;
   padding: 2rem;
   color: #111;
-  background-size: 100% 100%, cover; /* Ajustando o tamanho do fundo */
+  background-size: 100% 100%, cover; 
 }
 
 h1 {
   margin: 0 0 1rem 0;
   font-size: 1.6rem;
-  color: var(--blue); /* Cor azul para título */
+  color: var(--blue); 
 }
 
 .grid {
@@ -41,7 +40,7 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: .6rem;
-  border: 2px solid var(--yellow); /* Borda amarela para destacar */
+  border: 2px solid var(--yellow); 
 }
 
 .card:hover {
@@ -52,10 +51,10 @@ h1 {
 .video-wrap {
   position: relative;
   width: 100%;
-  padding-top: 56.25%; /* Mantém proporção 16:9 */
+  padding-top: 56.25%; 
   border-radius: calc(var(--radius) - 4px);
   overflow: hidden;
-  background: var(--blue); /* Fundo azul para o player de vídeo */
+  background: var(--blue); 
 }
 
 .video-wrap iframe {
@@ -72,12 +71,12 @@ h1 {
   align-items: center;
   gap: .5rem;
   font-size: .95rem;
-  color: var(--green); /* Texto da meta em verde */
+  color: var(--green); 
 }
 
 .title {
   font-weight: 600;
-  color: var(--blue); /* Título em azul */
+  color: var(--blue); 
 }
 
 .desc {
@@ -87,10 +86,10 @@ h1 {
 }
 
 .badge {
-  background: var(--green); /* Badge em verde */
+  background: var(--green); 
   padding: .25rem .5rem;
   border-radius: 999px;
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--white); /* Texto do badge em branco */
+  color: var(--white); 
 }
